@@ -12,7 +12,7 @@ let questions = [
     ]
   },
   {
-    numb: 3,
+    numb: 2,
     question: "What does PHP stand for?",
     answer: "Hypertext Preprocessor",
     options: [
@@ -23,7 +23,7 @@ let questions = [
     ]
   },
   {
-    numb: 4,
+    numb: 3,
     question: "What does SQL stand for?",
     answer: "Structured Query Language",
     options: [
@@ -34,7 +34,7 @@ let questions = [
     ]
   },
   {
-    numb: 5,
+    numb: 4,
     question: "What does XML stand for?",
     answer: "eXtensible Markup Language",
     options: [
@@ -45,7 +45,7 @@ let questions = [
     ]
   },
   {
-    numb: 6,
+    numb: 5,
     question: "707 - 10 =",
     answer: "697",
     options: [
@@ -56,7 +56,7 @@ let questions = [
     ]
   },
   {
-    numb: 7,
+    numb: 6,
     question: "6,138 + 456 =",
     answer: "6,594",
     options: [
@@ -67,7 +67,7 @@ let questions = [
     ]
   },
   {
-    numb: 8,
+    numb: 7,
     question: "What is the result of 4 multiplied by 702?",
     answer: "2808",
     options: [
@@ -78,7 +78,7 @@ let questions = [
     ]
   },
   {
-    numb: 9,
+    numb: 8,
     question: "What is the result of 8,005 plus 408?",
     answer: "8413",
     options: [
@@ -89,30 +89,8 @@ let questions = [
     ]
   },
   {
-    numb: 10,
-    question: "What is the result of 7 multiplied by 5?",
-    answer: "35",
-    options: [
-      "12",
-      "40",
-      "35",
-      "25"
-    ]
-  },
-  {
-    numb: 11,
-    question: "−10°C −4°C 1°C 3°C 6°C: Which is the lowest temperature?",
-    answer: "-10°C",
-    options: [
-      "-10°C",
-      "-4°C",
-      "1°C",
-      "3°C",
-      "6°C"
-    ]
-  }
-  // Add more questions following the same structure if needed
-];
+    numb: 9,
+    question: "What is the result of 7 multiplied
 
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
