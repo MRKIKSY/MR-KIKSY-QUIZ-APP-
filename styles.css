@@ -30,8 +30,6 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 90%; /* Adjust the width as needed */
-    max-width: 550px; /* Set maximum width if required */
 }
 
 /* Active states for boxes */
@@ -59,6 +57,7 @@ body {
 
 /* Info Box */
 .info_box {
+    width: 540px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -68,3 +67,26 @@ body {
 }
 
 /* Rest of your existing styles... */
+
+/* Media Queries for Responsiveness */
+
+/* For smaller screens (phones) */
+@media (max-width: 767px) {
+    /* Adjust width and other specific styles for smaller screens */
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    /* Adjust other specific styles for smaller screens */
+    /* ... */
+}
+
+/* For larger screens (tablets, laptops, desktops) */
+@media (min-width: 768px) {
+    /* Keep the existing styles for larger screens */
+    /* ... */
+}
