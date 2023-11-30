@@ -393,9 +393,16 @@ footer button.show{
     .info_box,
     .quiz_box,
     .result_box {
-        width: 90%;
-        max-width:  100%; /* Adjust as needed */
+        width: auto;
+        max-width:  auto; /* Adjust as needed */
     }
+
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 90%;
+    }
+
 
     .info_box,
     .quiz_box,
