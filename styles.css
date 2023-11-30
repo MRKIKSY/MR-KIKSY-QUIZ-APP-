@@ -386,7 +386,6 @@ footer button.show{
 /* Your existing CSS */
 
 /* Media Queries for responsiveness */
-
 @media only screen and (max-width: 767px) {
     /* Adjustments for smaller screens */
     .start_btn,
@@ -394,29 +393,9 @@ footer button.show{
     .quiz_box,
     .result_box {
         width: auto;
-        max-width:  auto; /* Adjust as needed */
+        max-width:  90%; /* Adjust as needed */
     }
 
-    .info_box,
-    .quiz_box,
-    .result_box {
-        width: 90%;
-    }
-
-
-    .info_box,
-    .quiz_box,
-    .result_box {
-        width: 90%;
-    }
-
-
-
-    .info_box,
-    .quiz_box,
-    .result_box {
-        width: 90%;
-    }
 
     /* Additional adjustments for smaller screens if needed */
 }
