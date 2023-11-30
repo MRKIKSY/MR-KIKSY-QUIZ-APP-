@@ -1,6 +1,6 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
-    {
+  {
     numb: 1,
     question: "What does HTML stand for?",
     answer: "Hyper Text Markup Language",
@@ -11,18 +11,7 @@ let questions = [
       "Hyper Tool Multi Language"
     ]
   },
-    {
-    numb: 2,
-    question: "Do you think MR KIKSY should reduce some of his talents?",
-    answer: "Leave am for am abeg, its simply  God blessing nothing else",
-    options: [
-      "Yes he should reduce his talents, its becoming too much now",
-      "Not sure, ",
-      "Yeah MR KIKSY should stick to clubbing tbh",
-      "Leave am for am abeg, its simply  God blessing nothing else "
-    ]
-  },
-    {
+  {
     numb: 3,
     question: "What does PHP stand for?",
     answer: "Hypertext Preprocessor",
@@ -33,7 +22,7 @@ let questions = [
       "Hometext Preprocessor"
     ]
   },
-    {
+  {
     numb: 4,
     question: "What does SQL stand for?",
     answer: "Structured Query Language",
@@ -44,7 +33,7 @@ let questions = [
       "Structured Query Language"
     ]
   },
-    {
+  {
     numb: 5,
     question: "What does XML stand for?",
     answer: "eXtensible Markup Language",
@@ -55,6 +44,76 @@ let questions = [
       "eXamine Multiple Language"
     ]
   },
+  {
+    numb: 6,
+    question: "707 - 10 =",
+    answer: "697",
+    options: [
+      "784",
+      "753",
+      "697",
+      "687"
+    ]
+  },
+  {
+    numb: 7,
+    question: "6,138 + 456 =",
+    answer: "6,594",
+    options: [
+      "6,784",
+      "6,753",
+      "6,697",
+      "6,687"
+    ]
+  },
+  {
+    numb: 8,
+    question: "What is the result of 4 multiplied by 702?",
+    answer: "2808",
+    options: [
+      "2814",
+      "2756",
+      "2808",
+      "2920"
+    ]
+  },
+  {
+    numb: 9,
+    question: "What is the result of 8,005 plus 408?",
+    answer: "8413",
+    options: [
+      "8403",
+      "8325",
+      "8413",
+      "8572"
+    ]
+  },
+  {
+    numb: 10,
+    question: "What is the result of 7 multiplied by 5?",
+    answer: "35",
+    options: [
+      "12",
+      "40",
+      "35",
+      "25"
+    ]
+  },
+  {
+    numb: 11,
+    question: "−10°C −4°C 1°C 3°C 6°C: Which is the lowest temperature?",
+    answer: "-10°C",
+    options: [
+      "-10°C",
+      "-4°C",
+      "1°C",
+      "3°C",
+      "6°C"
+    ]
+  }
+  // Add more questions following the same structure if needed
+];
+
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
