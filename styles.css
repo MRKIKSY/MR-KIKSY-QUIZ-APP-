@@ -387,16 +387,22 @@ footer button.show{
 
 /* Media Queries for responsiveness */
 
-/* For smaller devices (phones) */
 @media only screen and (max-width: 767px) {
     /* Adjustments for smaller screens */
     .start_btn,
     .info_box,
     .quiz_box,
     .result_box {
-        width: auto;
+        width: 90%;
         max-width:  100%; /* Adjust as needed */
     }
+
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 90%;
+    }
+
 
 
     .info_box,
